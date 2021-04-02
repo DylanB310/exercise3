@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<style>
+			table, th, td {
+				border: 1px solid black;
+				border-collapse: collapse;
+			}
+			th, td {
+				padding: 5px;
+			}
+			th {
+				text-align: left;
+			}
+		</style>
+		<title> Project Socii </title>
+	</head>
+
+	<body>
+		<h1 style=color:blue> Slogan goes here...</title>
+		<hr>
+		<div>
+			<a href="/createaccount">Create Account</a>
+		</div>
+		<div>
+			<a href="/login">Login</a>
+		</div>
+		<div>
+			<a href="/logout">Logout</a>
+		</div>
+		<div>
+			<a href="/createevent">Create Event</a>
+		</div>
+		<div>
+			<a href="/creategroup">Create Group</a>
+		</div>
+		<hr>
+		{% block content %} {% endblock %}
+	</body>
+</html>
